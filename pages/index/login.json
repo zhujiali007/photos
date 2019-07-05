@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "登 录",
+    "usingComponents": {
+        "logo": "/pages/component/logo/index"
+    }
+}

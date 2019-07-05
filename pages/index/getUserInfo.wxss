@@ -1,0 +1,32 @@
+page{
+ background-color: white;
+}
+.warrant .block{
+    padding-top: 200rpx;
+    text-align: center;
+}
+.warrant .block1{
+    margin-top: 90rpx;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.warrant .block1 .wa_t1{
+    font-size: 36rpx;
+}
+.warrant .block1 .wa_t2{
+    padding: 55rpx 0 105rpx 0;
+    font-size: 28rpx;
+    color: #8e8e8e;
+}
+.warrant .block .wa_img{
+    width: 190rpx;
+    height: 190rpx;
+}
+.warrant .block1 .wa_btn{
+    background-color: #00b40d;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin: 0 80rpx;
+    color: white;
+}

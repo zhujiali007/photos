@@ -1,0 +1,28 @@
+<view class="page">
+
+        <!-- pages/selling/relate.wxml -->
+    <view class='relate'>
+        <view class='block'>
+            <image src="{{img_banner}}" class='ba_img'></image>
+        </view>
+        <view class='block1'>
+            <text class='new_text'>用户验证</text>
+        </view>
+    </view>
+
+    <view class="form_login">
+        <view class="dl">
+            <text class="iconfont icon icon-shouji1"></text>
+            <input data-name="phone" bindinput="input_change" class="input_text" value="{{form.phone}}" placeholder="手机号" type="number" />
+        </view>
+        <view class="dl">
+            <text class="iconfont icon icon-tupianyanzhengma"></text>
+            <input data-name="code" bindinput="input_change" value="{{form.code}}" class="input_text" placeholder="请输入验证码" type="number" />
+            <!-- <view class="send weui-button"></view> -->
+            <button class="weui_btn {{verify_status ? '' : 'forbid'}}" bindtap="send_verify">{{verify_title}}</button>
+        </view>
+    </view>
+    <view class="weui_big_btn">
+        <button class="btn" bindtap="submit" type="primary">验 证</button>
+    </view>
+</view>

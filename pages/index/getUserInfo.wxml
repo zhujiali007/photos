@@ -1,0 +1,11 @@
+<view class='warrant page'>
+    <view class='block'>
+        <image src="/assets/img/logo.png" class='wa_img'></image>
+    </view>
+    <view class='block1'>
+        <text class='wa_t1'>青柠匠申请获得以下权限:</text>
+        <text class='wa_t2'>获得你的公开信息 (昵称, 头像)</text>
+        <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="get_info" class='wa_btn'>微信授权登录</button>
+    </view>
+    
+</view>

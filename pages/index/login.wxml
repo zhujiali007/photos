@@ -1,0 +1,12 @@
+<view class='warrant page'>
+    <view class='block'>
+        <image src="/assets/img/logo.png" class='wa_img'></image>
+    </view>
+    <view class='block1'>
+        <button  open-type="getPhoneNumber" bindgetphonenumber="get_info"  class='wa_btn'>
+        <image src="/assets/img/b12.jpg" class='btn_img'></image>
+        微信授权登录</button>
+        <navigator open-type="redirect" url="/pages/index/relevance"class='wa_t1'>输入手机号码进行绑定</navigator>
+    </view>
+    <logo />
+</view>

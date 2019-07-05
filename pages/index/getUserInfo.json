@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "logo": "/pages/component/logo/index"
+    }
+}

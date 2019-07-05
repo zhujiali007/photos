@@ -1,0 +1,24 @@
+/* pages/member/relevance.wxss */
+page{
+    background: #fff;
+}
+
+.relate .block{
+    text-align: center;
+}
+.relate .block .ba_img{
+    width: 750rpx;
+    height:360rpx;
+    z-index: 1;
+}
+.relate .block1{
+    margin-top: 80rpx;
+    display: flex;
+    flex-direction: column;
+}
+.relate .block1 .new_text{
+    font-size: 36rpx;
+    color: #4589ff;
+    padding-left:70rpx;
+}
+
